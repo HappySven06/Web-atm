@@ -9,20 +9,59 @@
 	</head>
 
 	<body>
-        <center>
-            <h1>Web atm</h1>
-        </center>
-
-        <div class="login">
-            <div id="input">
-                <p>Card id:</p>
-                <input class="inputfield"></input>
-
-                <p>Password:</p>
-                <input class="inputfield"></input>
+        <div id="controls">
+            <center>
+                <h1>Web atm</h1>
+            </center>
+    
+            <div class="terminal">
+                <h3>Ballance</h3>
+                <p id="ballance"></p>
             </div>
+            <div class="terminal">
+                <div>
+                    <button class="button" id="inputbutton" onclick="changeDraw();">Withdraw</button>
+                </div>
+                <div>
+                    <button class="button" id="inputbutton" onclick="changeSite();">Deposite</button>
+                </div>
+            </div>
+        </div>
 
-            <button class="button" id="button" onclick="login();">Log in</button>
+        <div id="draw">
+            <center>
+                <h1>Web atm</h1>
+            </center>
+
+            <div class="terminal">
+                <h3>How much would you like to withdraw</h3>
+                <input id=inpuDraw></input>
+                <div>
+                    <button class="button" id="inputbutton" onclick="deposite();">Deposite</button>
+                </div>
+
+                <div id="confirm">
+                    <p id="confirmText"></p>
+                </div>
+            </div>
+        </div>
+
+        <div id="site">
+            <center>
+                <h1>Web atm</h1>
+            </center>
+
+            <div class="terminal">
+                <h3>How much would you like to deposite</h3>
+                <input id=inpuSite></input>
+                <div>
+                    <button class="button" id="inputbutton" onclick="deposite();">Deposite</button>
+                </div>
+
+                <div id="confirm">
+                    <p id="confirmText"></p>
+                </div>
+            </div>
         </div>
 	</body>
 	
