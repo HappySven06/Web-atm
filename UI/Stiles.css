@@ -1,4 +1,4 @@
-#endScreen {
+#site, #draw {
     display: none;
 }
 html {
@@ -59,6 +59,14 @@ opacity:0.8; /*Tee element pisut läbipaistvaks*/
     color:rgb(255, 255, 255);
     font-size: 20px;
     width: 50%;
+    margin: 5px;
+}
+#inputbutton2 {
+    background-color: #666666;
+    height: 50px;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    width: 25%;
     margin: 5px;
 }
 #button {
